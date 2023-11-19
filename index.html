@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучение тега<form></title>
+</head>
+<body>
+    <form action="URL" method="get" autocomplete="on" name="form">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <label for="name">Введите имя</label>
+            <input type="text" name="name" id="name" placeholder="Имя" autofocus>
+            <label for="name">Дата рождения</label>
+            <input type="date" name="name" id="name" placeholder="дд. мм. гг.">
+        </fieldset>
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <label for="name">Введите телефон</label>
+            <input type="tel" name="name" id="name" placeholder="+375-29(33)-333-44-55">
+            <label for="name">Введите email</label>
+            <input type="email" name="name" id="name" placeholder="ivanov_77@mail.ru">
+        </fieldset>
+        <fieldset>
+            <legend>Хобби</legend>
+            <label for="name">React</label>
+            <input type="checkbox">
+            <label for="name">HTML</label>
+            <input type="checkbox">
+            <label for="name">CSS</label>
+            <input type="checkbox">
+            <label for="name">JS</label>
+            <input type="checkbox">
+        </fieldset>
+        <fieldset>
+            <legend>Что выбираешь?</legend>
+            <label for="name">React</label>
+            <input type="radio">
+            <label for="name">Angular</label>
+            <input input type="radio">
+            <label for="name">Vue</label>
+            <input input type="radio">
+        </fieldset>
+        <fieldset>
+            <legend>Срок обучения</legend>
+            <label for="name"></label>
+            <input type="range">
+        </fieldset>
+        <fieldset>
+            <legend>Дополнительно</legend>
+            <label for="name">Отправить файл</label>
+            <input type="file" name="name" id="name" placeholder="Выберете файл" value="yes">
+        </fieldset>
+        <button type="submit">Отправить</button> <button type="reset">Сбросить</button>
+    </form>
+</body>
+</html>
